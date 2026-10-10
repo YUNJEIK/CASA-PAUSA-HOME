@@ -1,0 +1,86 @@
+.rituals {
+  padding: 3rem;
+  background-color: #f8f3ed;
+}
+
+.rituals__header {
+  max-width: 640px;
+  margin-bottom: 2rem;
+}
+
+.rituals__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  color: #8b7b6d;
+  margin-bottom: 0.4rem;
+}
+
+.rituals h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.9rem;
+  color: #3c2f2f;
+  margin: 0 0 0.5rem 0;
+}
+
+.rituals__subtitle {
+  font-size: 0.95rem;
+  color: #6d5c51;
+  line-height: 1.6;
+}
+
+.rituals__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.ritual-card {
+  background-color: #fdfbf7;
+  border-radius: 18px;
+  border: 1px solid #e5d7c9;
+  padding: 1.4rem 1.2rem;
+}
+
+.ritual-card__tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #8b7b6d;
+  border-radius: 999px;
+  padding: 0.2rem 0.8rem;
+  border: 1px solid #d9c6b1;
+  margin-bottom: 0.7rem;
+}
+
+.ritual-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  color: #3c2f2f;
+}
+
+.ritual-card p {
+  font-size: 0.88rem;
+  color: #6d5c51;
+  line-height: 1.6;
+  margin: 0.1rem 0;
+}
+
+.ritual-card__note {
+  font-size: 0.8rem;
+  color: #8b7b6d;
+  margin-top: 0.6rem;
+}
+
+.rituals__footer {
+  max-width: 520px;
+  margin-top: 1rem;
+}
+
+.rituals__footer p {
+  font-size: 0.9rem;
+  color: #6d5c51;
+  margin-bottom: 0.8rem;
+}

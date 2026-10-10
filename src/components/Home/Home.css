@@ -1,0 +1,71 @@
+.home {
+  padding: 3rem;
+  background-color: #f8f3ed; /* blanco tiza */
+}
+
+.home__hero {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__text {
+  max-width: 480px;
+}
+
+.home__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  color: #8b7b6d; /* marrón claro */
+  margin-bottom: 0.5rem;
+}
+
+.home h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2.4rem;
+  color: #3c2f2f; /* café */
+  margin-bottom: 0.7rem;
+}
+
+.home__subtitle {
+  font-size: 0.95rem;
+  color: #6d5c51; /* marrón medio */
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.home__actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #a2724e; /* terracota suave */
+  color: #fdfbf7; /* blanco tiza */
+}
+
+.btn-secondary {
+  border: 1px solid #a2724e; /* terracota suave */
+  color: #a2724e; /* terracota suave */
+  background-color: transparent;
+}
+
+.home__image-placeholder {
+  width: 320px;
+  height: 360px;
+  background: #e4d6c6; /* beige suave */ 
+  border-radius: 24px;
+}

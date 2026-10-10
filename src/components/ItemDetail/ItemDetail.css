@@ -1,0 +1,126 @@
+.detail {
+  padding: 3rem;
+  background-color: #faf6f1;
+}
+
+.detail__top-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.detail__back-button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 0.85rem;
+  color: #6d5c51;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  cursor: pointer;
+}
+
+.detail__back-button:hover {
+  color: #3c2f2f;
+}
+
+.detail__breadcrumb {
+  font-size: 0.8rem;
+  color: #8b7b6d;
+  text-decoration: none;
+}
+
+.detail__breadcrumb:hover {
+  color: #3c2f2f;
+}
+
+.detail__content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.1fr);
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.detail__image-wrapper {
+  max-width: 480px;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 24px;
+  overflow: hidden;
+  background-color: #e8ddd1;
+}
+
+.detail__image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail__image-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #e8ddd1, #f4ebe0);
+}
+
+.detail__info {
+  max-width: 480px;
+}
+
+.detail__category {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.8rem;
+  color: #8b7b6d;
+  margin-bottom: 0.4rem;
+}
+
+.detail h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.9rem;
+  color: #3c2f2f;
+  margin: 0 0 0.6rem 0;
+}
+
+.detail__description {
+  font-size: 0.95rem;
+  color: #6d5c51;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.detail__price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #3c2f2f;
+  margin-bottom: 0.4rem;
+}
+
+.detail__stock {
+  font-size: 0.9rem;
+  color: #6d5c51;
+  margin-bottom: 0.8rem;
+}
+
+.detail__stock--out {
+  color: #a94442;
+}
+
+.detail__after-add {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .detail__content {
+    grid-template-columns: 1fr;
+  }
+
+  .detail__image-wrapper {
+    max-width: 100%;
+  }
+}

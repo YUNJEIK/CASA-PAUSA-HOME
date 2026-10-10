@@ -1,0 +1,62 @@
+.diario {
+  padding: 3rem;
+  background-color: #f8f3ed;
+}
+
+.diario__header {
+  max-width: 640px;
+  margin-bottom: 2rem;
+}
+
+.diario__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  color: #8b7b6d;
+  margin-bottom: 0.4rem;
+}
+
+.diario h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.9rem;
+  color: #3c2f2f;
+  margin: 0 0 0.5rem 0;
+}
+
+.diario__subtitle {
+  font-size: 0.95rem;
+  color: #6d5c51;
+  line-height: 1.6;
+}
+
+.diario__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.diario-card {
+  background-color: #fdfbf7;
+  border-radius: 18px;
+  border: 1px solid #e5d7c9;
+  padding: 1.4rem 1.2rem;
+}
+
+.diario-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.1rem;
+  color: #3c2f2f;
+}
+
+.diario-card p {
+  font-size: 0.88rem;
+  color: #6d5c51;
+  line-height: 1.6;
+  margin: 0.2rem 0;
+}
+
+.diario-card__placeholder {
+  font-size: 0.8rem;
+  color: #8b7b6d;
+  margin-top: 0.5rem;
+}

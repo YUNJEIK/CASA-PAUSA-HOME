@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #faf6f1; /* blanco tiza */
+  color: #3c2f2f; /* café */
+}
+
+main {
+  min-height: calc(100vh - 64px);
+}
+
+.center-text {
+  padding: 2rem;
+  text-align: center;
+  color: #6d5c51; /* marrón medio */
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+ /* Estilos para los enlaces de redes sociales  a futuro , no olvidar  ;) */
+.btn-primary,
+.btn-secondary {
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #a2724e;
+  color: #fdfbf7;
+}
+
+.btn-primary:hover {
+  background-color: #8a5f41;
+}
+
+.btn-secondary {
+  border: 1px solid #a2724e;
+  color: #a2724e;
+  background-color: transparent;
+}
+
+.btn-secondary:hover {
+  background-color: #e8ddd1;
+}

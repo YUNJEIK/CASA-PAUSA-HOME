@@ -1,0 +1,20 @@
+.cart-widget {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  color: #3c2f2f; /* café */
+  font-size: 0.9rem;
+}
+
+.cart-widget__icon {
+  font-size: 1.3rem;
+}
+
+.cart-widget__count {
+  background-color: #a2724e; /* terracota suave */
+  color: #fdfbf7; /* blanco tiza */
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.8rem;
+}

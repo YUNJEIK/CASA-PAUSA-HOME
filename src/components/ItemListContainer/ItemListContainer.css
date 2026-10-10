@@ -1,0 +1,30 @@
+.list-container {
+  padding: 3rem;
+  background-color: #faf6f1;
+}
+
+.list-container__header {
+  max-width: 640px;
+  margin-bottom: 2rem;
+}
+
+.list-container__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  color: #8b7b6d;
+  margin-bottom: 0.4rem;
+}
+
+.list-container__title {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  color: #3c2f2f;
+  margin: 0 0 0.5rem 0;
+}
+
+.list-container__subtitle {
+  font-size: 0.95rem;
+  color: #6d5c51;
+  line-height: 1.6;
+}
