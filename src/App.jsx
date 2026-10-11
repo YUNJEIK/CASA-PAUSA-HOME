@@ -8,6 +8,7 @@ import CheckoutForm from './components/CheckoutForm/CheckoutForm.jsx'
 import Rituals from './pages/Rituals.jsx'
 import BuildYourSet from './pages/BuildYourSet.jsx'
 import DiarioDePausas from './pages/DiarioDePausas.jsx'
+import './App.css'
 
 const App = () => {
   return (
@@ -18,22 +19,17 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/tienda' element={<ItemListContainer greeting="Todos los productos" />} />
           <Route path='/category/:categoryId' element={<ItemListContainer />} />
-          <Route path='/rituales' element={<Rituals />} />
-          <Route path='/arma-tu-set' element={<BuildYourSet />} />
           <Route path='/item/:id' element={<ItemDetailContainer />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/checkout' element={<CheckoutForm />} />
+          <Route path='/rituales' element={<Rituals />} />
+          <Route path='/arma-tu-set' element={<BuildYourSet />} />
+          <Route path='/diario-de-pausas' element={<DiarioDePausas />} />
           <Route path='*' element={<h2 style={{ padding: '2rem' }}>Página no encontrada</h2>} />
-          <Route path="/diario-de-pausas" element={<DiarioDePausas />} />
         </Routes>
       </main>
     </>
   )
 }
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
 
 export default App
